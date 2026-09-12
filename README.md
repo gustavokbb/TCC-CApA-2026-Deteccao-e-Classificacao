@@ -1,1 +1,1 @@
-# TCC-CApA---Dete-o-e-Classifica-o
+# TCC-CApA 2026 - Detecção/Classificacao
