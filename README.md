@@ -151,7 +151,7 @@ Esses notebooks contêm todas as etapas necessárias para:
 
 ### Utilização dos modelos já treinados
 
-Caso o objetivo seja apenas utilizar os modelos sem repetir o treinamento, recomenda-se utilizar os notebooks apresentados na **Seção 3**.
+Caso o objetivo seja apenas utilizar os modelos sem repetir o treinamento, recomenda-se visualizar as instruções apresentadas na **Seção 3**.
 
 O fluxo de utilização é:
 
