@@ -40,9 +40,13 @@ O notebook contém:
 - avaliação em imagens reais do Anti-UAV;
 - análise específica da classe DJI Mavic.
 
-**Google Colab — Treinamento da classificação:**  
-[ADICIONAR AQUI O LINK DO COLAB DE CLASSIFICAÇÃO]
+O notebook contém todo o processo de treinamento, validação e avaliação do classificador.
 
+Também permite consultar os resultados previamente obtidos sem executar novamente o treinamento.
+
+**Google Colab — Treinamento da classificação:**  
+
+https://colab.research.google.com/drive/1UUOj2rswcxfI5UP6A9vSz9hZyWhoKiS0?usp=sharing
 
 ### 1.2 Detecção — YOLO11n
 
@@ -91,35 +95,19 @@ O melhor checkpoint (`best.pt`) será disponibilizado após a conclusão da migr
 
 ---
 
-## 3. Colab para importação dos modelos e realização dos testes
+## 3. Importação do modelo treinado e realização dos testes
 
-Além dos notebooks utilizados para treinamento, serão disponibilizados notebooks destinados exclusivamente à utilização dos modelos já treinados.
+O mesmo notebook de classificação também permite carregar o melhor modelo previamente treinado e acessar diretamente as etapas de validação e teste, sem repetir o treinamento.
 
-Esses notebooks permitem importar os pesos dos modelos e executar os testes sem necessidade de realizar novamente o processo completo de treinamento.
+Para esse modo de utilização:
 
-
-### 3.1 Teste do modelo de classificação
-
-O notebook de teste deverá:
-
-1. configurar o ambiente;
-2. importar o modelo DenseNet201 treinado;
-3. carregar os pesos correspondentes ao melhor modelo;
-4. preparar as imagens de teste;
-5. executar a classificação;
-6. apresentar as classes estimadas e as métricas correspondentes.
+1. execute a seção de configuração do ambiente;
+2. não execute novamente as células de treinamento;
+3. acesse diretamente as seções de resultados, validação e avaliação com dados reais.
 
 **Google Colab — Teste da classificação:**  
-[ADICIONAR AQUI O LINK DO COLAB DE TESTE DA CLASSIFICAÇÃO]
 
-
-### 3.2 Teste do modelo de detecção
-
-O notebook de teste da detecção permitirá carregar diretamente o modelo YOLO11n treinado e realizar inferência em imagens ou vídeos.
-
-**Google Colab — Teste da detecção:**  
-*Em preparação.*
-
+(https://colab.research.google.com/drive/1UUOj2rswcxfI5UP6A9vSz9hZyWhoKiS0?usp=sharing)
 
 ---
 
