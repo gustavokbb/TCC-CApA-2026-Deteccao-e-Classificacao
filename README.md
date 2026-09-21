@@ -107,7 +107,7 @@ Para esse modo de utilização:
 
 **Google Colab — Teste da classificação:**  
 
-(https://colab.research.google.com/drive/1UUOj2rswcxfI5UP6A9vSz9hZyWhoKiS0?usp=sharing)
+https://colab.research.google.com/drive/1UUOj2rswcxfI5UP6A9vSz9hZyWhoKiS0?usp=sharing
 
 ---
 
