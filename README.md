@@ -56,9 +56,9 @@ O conjunto de dados utilizado nessa etapa é o **DUT Anti-UAV**.
 
 O notebook contendo a preparação do ambiente, treinamento, validação e avaliação do modelo de detecção será disponibilizado nesta seção.
 
-**Google Colab — Treinamento da detecção:**  
-*Em preparação.*
+**Google Colab — Treinamento da detecção:**
 
+https://colab.research.google.com/drive/13uvSsSTXOVH8RV0YJhlSzJR0sGPlGIk_?usp=sharing
 
 ---
 
