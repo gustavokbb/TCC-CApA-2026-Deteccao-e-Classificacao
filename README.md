@@ -60,6 +60,14 @@ O notebook contendo a preparação do ambiente, treinamento, validação e avali
 
 https://colab.research.google.com/drive/13uvSsSTXOVH8RV0YJhlSzJR0sGPlGIk_?usp=sharing
 
+### Integração — Detecção e classificação de drones
+
+O notebook integra o detector YOLO11n e o classificador DenseNet201 para localizar e classificar drones em imagens e vídeos. Permite testar arquivos próprios e apresenta as caixas delimitadoras, a confiança da detecção e a categoria prevista pelo classificador.
+
+**Google Colab — Notebook Integrado:**
+
+https://colab.research.google.com/drive/1az2j5R-CCGrkPzmZAztaqpRa59LzQ4fp
+
 ---
 
 ## 2. Modelos de IA treinados
@@ -90,8 +98,8 @@ O modelo de detecção foi treinado utilizando o conjunto de dados DUT Anti-UAV.
 O melhor checkpoint (`best.pt`) será disponibilizado após a conclusão da migração da etapa de detecção para o Google Colab.
 
 **Download do modelo treinado:**  
-*Em preparação.*
 
+https://drive.google.com/file/d/1o51gmjqBJHzrUX2MTYqowB-cylbtFXA_/view?usp=sharing
 
 ---
 
